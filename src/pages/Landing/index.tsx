@@ -9,7 +9,7 @@ import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
 import "./styles.css";
 
-const Landing = () => {
+const Landing: React.FC = () => {
   return (
     <div id="page-landing">
       <div id="page-landing-content" className="container">
