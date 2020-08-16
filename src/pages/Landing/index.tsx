@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
       <div id="page-landing-content" className="container">
         <div className="logo-container">
           <img src={logoImg} alt="Proffy" />
-          <h2>Sua plataforma de estudos online.</h2>
+          <h2>Encontre tutores online de forma rápida e fácil.</h2>
         </div>
 
         <img
@@ -42,7 +42,7 @@ const Landing: React.FC = () => {
 
           <Link to="/teach-classes" className="teach-classes">
             <img src={teachClasses} alt="Dar Aulas" />
-            Dar Aulas
+            Torne-se um tutor
           </Link>
         </div>
 
