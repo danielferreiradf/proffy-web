@@ -8,7 +8,7 @@
 }
 
 #page-teacher-form main {
-  background: var(--color-box-base);
+  background: var(--color-tertiary);
   width: 100%;
   max-width: 74rem;
   border-radius: 0.8rem;
@@ -28,14 +28,14 @@
 
 #page-teacher-form main fieldset legend {
   font: 700 2.4rem Archivo;
-  color: var(--color-text-title);
+  color: var(--primary);
   margin-bottom: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   padding-bottom: 1.6rem;
-  border-bottom: 1px solid var(--color-line-in-white);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 #page-teacher-form main fieldset legend button {
@@ -48,7 +48,7 @@
 }
 
 #page-teacher-form main fieldset legend button:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-secondary-dark);
 }
 
 #page-teacher-form main fieldset .input-block + .textarea-block,
@@ -57,12 +57,12 @@
 }
 
 #page-teacher-form main .input-block label {
-  color: var(--color-text-complement);
+  color: var(--color-primary);
 }
 
 #page-teacher-form main footer {
   padding: 4rem 2.4rem;
-  background: var(--color-box-footer);
+  background: var(--color-quinary);
   border-top: 1px solid var(--color-line-in-white);
   margin-top: 6.4rem;
 }
@@ -73,7 +73,6 @@
   justify-content: center;
   font-size: 1.4rem;
   line-height: 2.4rem;
-  color: var(--color-text-complement);
 }
 
 #page-teacher-form main footer p img {
@@ -82,13 +81,13 @@
 
 #page-teacher-form main footer button {
   width: 100%;
-  height: 5.6rem;
-  background: var(--color-secondary);
-  color: var(--color-button-text);
+  background: var(--color-secondary-dark);
+  padding: 2rem 3rem;
+  color: var(--color-white);
   border: 0;
   border-radius: 0.8rem;
   cursor: pointer;
-  font: 700 1.6rem Archivo;
+  font: 700 1.8rem Archivo;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +97,7 @@
 }
 
 #page-teacher-form main footer button:hover {
-  background: var(--color-secondary-dark);
+  background: var(--color-secondary);
 }
 
 @media (min-width: 700px) {

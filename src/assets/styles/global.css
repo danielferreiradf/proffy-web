@@ -1,11 +1,11 @@
 :root {
-  --color-background: #f0f0f7;
+  --color-background: #f2f2f2;
   --color-primary: #413c58;
   --color-secondary: #a3c4bc;
   --color-secondary-dark: #62998b;
-  --color-tertiary: #bfd7b5;
+  --color-tertiary: #e9f7ca;
   --color-tertiary-dark: #568045;
-  --color-quaternary: ##cadc80;
+  --color-quaternary: #cadc80;
   --color-quaternary-dark: #93aa2f;
   --color-quinary: #e7c25c;
   --color-quinary-dark: #e2b539;
@@ -41,7 +41,7 @@ input,
 button,
 textarea {
   font: 500 1.6rem Poppins;
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .container {
